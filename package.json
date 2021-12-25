@@ -1,28 +1,33 @@
 {
-  "name": "myazarel.com",
-  "version": "1.0.0",
-  "description": "Azarel Coming Soon website",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nakinnubis/azarel-website-coming-soon.git"
-  },
-  "keywords": [
-    "Hair",
-    "Stylist",
-    "Customers",
-    "People"
-  ],
-  "author": "Abiola Akinnubi",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nakinnubis/azarel-website-coming-soon/issues"
-  },
-  "homepage": "https://github.com/nakinnubis/azarel-website-coming-soon#readme",
-  "dependencies": {
-    "express": "^4.17.2"
-  }
+    "name": "myazarel.com",
+    "version": "1.0.0",
+    "description": "Azarel Coming Soon website",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nakinnubis/azarel-website-coming-soon.git"
+    },
+    "keywords": [
+        "Hair",
+        "Stylist",
+        "Customers",
+        "People"
+    ],
+    "author": "Abiola Akinnubi",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/nakinnubis/azarel-website-coming-soon/issues"
+    },
+    "homepage": "https://github.com/nakinnubis/azarel-website-coming-soon#readme",
+    "dependencies": {
+        "express": "^4.17.2",
+        "axios": "^0.23.0",
+        "body-parser": "^1.19.0",
+        "browserify": "^17.0.0",
+        "dotenv": "^10.0.0",
+        "pouchdb": "^7.2.2"
+    }
 }
