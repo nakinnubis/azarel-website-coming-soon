@@ -14,6 +14,17 @@ body {
 }
 
 
+/*Navigation styling*/
+
+.nav-arazel-bg {
+    background-image: url('../images/Frame.png');
+    background-repeat: no-repeat;
+    background-size: 100% 95%;
+    height: 850px;
+    padding-top: 0px;
+}
+
+
 /*Colors specifications*/
 
 .text-color-secondary {
@@ -107,6 +118,13 @@ body {
     background-color: #554B48 !important;
     border-color: #554B48 !important;
     color: #FCFAF4;
+    height: 50px;
+    width: 150px;
+}
+
+.no-border {
+    border: none;
+    background: none;
 }
 
 .secondary-button {
