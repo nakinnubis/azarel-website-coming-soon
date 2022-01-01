@@ -1,0 +1,36 @@
+{
+    "name": "myazarel.com",
+    "version": "1.0.0",
+    "description": "Azarel Coming Soon website",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nakinnubis/azarel-website-coming-soon.git"
+    },
+    "keywords": [
+        "Hair",
+        "Stylist",
+        "Customers",
+        "People"
+    ],
+    "author": "Abiola Akinnubi",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/nakinnubis/azarel-website-coming-soon/issues"
+    },
+    "homepage": "https://github.com/nakinnubis/azarel-website-coming-soon#readme",
+    "dependencies": {
+        "axios": "^0.23.0",
+        "body-parser": "^1.19.0",
+        "bootstrap": "^5.1.3",
+        "browserify": "^17.0.0",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.2",
+        "nodemon": "^2.0.15",
+        "pouchdb": "^7.2.2"
+    }
+}
