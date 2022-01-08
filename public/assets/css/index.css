@@ -107,6 +107,8 @@ body {
     height: 400px;
     left: 0px;
     bottom: 0%;
+   
+    
 }
 
 
@@ -130,6 +132,7 @@ body {
 .secondary-button {
     background: #F15A24;
     border-radius: 10px;
+    
 }
 
 .grouped-button-center {
@@ -191,7 +194,7 @@ left: 207px;
 top: 357px;
 
 font-family: SF Pro Display;
-font-size: 18px;
+font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 25px;
@@ -227,7 +230,7 @@ font-weight: 500;
 line-height: 58px;
 letter-spacing: 0em;
 text-align: right;
-
+ margin-left: 30%;
 color: #F04E37;
 }
 .se{
@@ -245,11 +248,15 @@ line-height: 25px;
 letter-spacing: 0em;
 text-align: right;
 
-margin-left: 22%;
+margin-left: 52%;
 color: #554B48;
+}
+.group-appstore-buttons-1{
+    margin-left: 12%;
 }
 .a{
     
+margin-left: 13%;
 
 font-family: SF Pro Display;
 font-size: 18px;
@@ -314,7 +321,7 @@ width: 358px;
 left: 926px;
 top: 2766px;
 border-radius: nullpx;
-
+ margin-left: 32%;
 font-family: Museo Sans;
 font-size: 56px;
 font-style: normal;
@@ -340,11 +347,11 @@ line-height: 25px;
 letter-spacing: 0em;
 text-align: right;
 color: #554B48;
-margin-left: 21%;
+margin-left: 54%;
 }
 .eas{
    
-
+margin-left: 12%;
 font-family: SF Pro Display;
 font-size: 18px;
 font-style: normal;
@@ -354,3 +361,334 @@ letter-spacing: 0em;
 text-align: left;
 color: #554B48;
 }
+.col-sm-0{
+    height: 659.5555419921875px;
+    width: 371px;
+    left: 975px;
+    top: 6434px;
+    margin-top: -99%;
+    margin-left: 134%;
+    border-radius: 0px;
+
+    
+}
+
+
+.ly{
+    height: 116px;
+width: 172px;
+left: 27px;
+top: 6512px;
+border-radius: nullpx;
+
+font-family: Museo Sans;
+font-size: 56px;
+font-style: normal;
+font-weight: 500;
+line-height: 58px;
+letter-spacing: 0em;
+text-align: left;
+
+color: #792D12;
+}
+.aza{
+    height: 76px;
+width: 238px;
+left: 207px;
+top: 6649px;
+border-radius: nullpx;
+
+font-family: SF Pro Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+color: #554B48;
+}
+.an{
+    
+
+font-family: SF Pro Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.mae{
+    height: 116px;
+width: 499px;
+left: 785px;
+top: 7388px;
+border-radius: nullpx;
+
+font-family: Museo Sans;
+font-size: 56px;
+font-style: normal;
+font-weight: 500;
+line-height: 58px;
+letter-spacing: 0em;
+text-align: right;
+color: #792D12;
+}
+.up{
+    height: 76px;
+width: 238px;
+left: 1042px;
+top: 7525px;
+border-radius: nullpx;
+
+font-family: SF Pro Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: right;
+color: #554B48;
+
+margin-left: 58%;
+}
+.pee{
+ margin-left: 2%; 
+ 
+font-family: SF Pro Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+color: #554B48;
+}
+
+.ment{
+    height: 116px;
+width: 426px;
+left: 207px;
+top: 8225px;
+border-radius: nullpx;
+
+font-family: Museo Sans;
+font-size: 56px;
+font-style: normal;
+font-weight: 500;
+line-height: 58px;
+letter-spacing: 0em;
+text-align: left;
+color: #792D12;
+}
+.req{
+    height: 76px;
+width: 238px;
+left: 207px;
+top: 8362px;
+border-radius: nullpx;
+
+font-family: SF Pro Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+
+color: #554B48;
+}
+.fro{
+    
+margin-left: -60;
+font-family: SF Pro Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+color: #554B48;
+}
+.col2{
+    margin-top: -134%;
+    margin-left: 140%;
+}
+.ings{
+    height: 116px;
+width: 358px;
+left: 926px;
+top: 9058px;
+border-radius: nullpx;
+
+font-family: Museo Sans;
+font-size: 56px;
+font-style: normal;
+font-weight: 500;
+line-height: 58px;
+letter-spacing: 0em;
+text-align: right;
+color: #792D12;
+margin-left: 20%;
+}
+.hom{
+    height: 76px;
+width: 238px;
+left: 1042px;
+top: 9195px;
+border-radius: nullpx;
+
+font-family: SF Pro Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: right;
+color: #554B48;
+margin-left: 47%;
+}
+.aje{
+   
+
+font-family: SF Pro Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+color: #554B48;
+}
+.ng{
+    margin-left: 40%;
+    margin-top: -10%;
+}
+.x{margin-left: -10.9%;}
+
+.expan{height:400px;
+width: 400px;
+
+}
+.todaytoady{
+    height: 64px;
+width: 634px;
+left: 403px;
+top: 10045px;
+border-radius: nullpx;
+
+font-family: Museo Sans;
+font-size: 57px;
+font-style: normal;
+font-weight: 400;
+line-height: 63px;
+letter-spacing: 0em;
+text-align: center;
+
+margin-top: 30%;
+margin-left: 78%;
+color: #F04E37;
+}
+.form-control{
+    border: 5em;
+    width: 60%;
+}
+.btn66 {text-align: center;
+    color: #FCFAF4;
+    left: 35%;
+    right: 35%;
+    position: absolute;
+    display: flex;
+    margin-top: -2.5%;
+    background: #F15A24;
+    border: navajowhite;
+    border-radius: .5em;
+    height: 34px;
+    justify-content: center;
+width: 9%;
+
+   
+
+}
+.tr{
+    margin-top: -10%;
+   
+    margin-left: 190%;
+    left: 0px;
+    top: 0px;
+    border-radius: 12px;
+    width: 29%;
+    height: 63px;
+    color: #FCFAF4;
+    
+
+}
+.form-control2{
+    border: 5em;
+    width: 60%;
+margin-left: 90%;
+border-radius: 12px;
+height: 40px;
+width: 376px;
+left: 419px;
+top: 10155px;
+border-radius: 12px;
+background: #FFFFFF;
+border: 2px solid #F79C7C;
+}
+.btn-outline-secondary02{
+    background: #FF4300;
+    color: #FFFFFF;
+}
+.fotty{
+    margin-top: 6%;
+  margin-left: 5%;
+
+}
+.major-list{ margin-top: -3%;
+    margin-left: 23%;
+            align-content: center;
+            font-family: Roboto;
+            font-size: 21px;
+            color: #FFFFFF;
+            list-style: none;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 7px;
+            columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+}
+.social{ margin-top: -3%;
+    margin-left: 23%;
+            align-content: center;
+            font-family: Roboto;
+            font-size: 21px;
+            color: #FFFFFF;
+            list-style: none;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 7px;
+            columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+            
+
+
+}
+
+.footer-heading{
+    
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+        color: #FFA093;
+        list-style: none;
+        align-content: center;
+        
+}
+
