@@ -51,7 +51,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 58px;
-    line-height: 69px;
+    /* line-height: 69px; */
 }
 
 .hero-info-text-h4 {
@@ -103,14 +103,64 @@ body {
 
 .footer {
     background: #554B48;
-    border-radius: 0px;
     height: 400px;
-    left: 0px;
-    bottom: 0%;
+    display: flex; 
+    padding: 2rem;
+    justify-content: space-between;
    
     
 }
+.social{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-heading{
+        height: 15px;
+    width: 37px;
+    left: 418px;
+    top: 10448px;
 
+
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+
+}
+.major-list{
+    display: flex;
+    justify-content: space-between;
+    width: 85vw;
+    color: #FCFAF4;
+    margin-right: 12rem;
+    font-size: 12px;
+}
+.subc{
+    height: 20px;
+width: 36px;
+left: 418px;
+top: 10509px;
+border-radius: nullpx;
+
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFA093;
+}
+.footer-logo{
+   
+    padding-right: 4rem;
+    padding-top: 2rem;
+}
 
 /*Button Stylish and Customization of Bootstrap colors*/
 
@@ -642,53 +692,3 @@ border: 2px solid #F79C7C;
     background: #FF4300;
     color: #FFFFFF;
 }
-.fotty{
-    margin-top: 6%;
-  margin-left: 5%;
-
-}
-.major-list{ margin-top: -3%;
-    margin-left: 23%;
-            align-content: center;
-            font-family: Roboto;
-            font-size: 21px;
-            color: #FFFFFF;
-            list-style: none;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 7px;
-            columns: 3;
-    -webkit-columns: 3;
-    -moz-columns: 3;
-}
-.social{ margin-top: -3%;
-    margin-left: 23%;
-            align-content: center;
-            font-family: Roboto;
-            font-size: 21px;
-            color: #FFFFFF;
-            list-style: none;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 7px;
-            columns: 3;
-    -webkit-columns: 3;
-    -moz-columns: 3;
-            
-
-
-}
-
-.footer-heading{
-    
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 15px;
-        line-height: 20px;
-        color: #FFA093;
-        list-style: none;
-        align-content: center;
-        
-}
-
