@@ -5,325 +5,432 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
     <link rel="stylesheet" href="assets/css/index.css">
     <title>Azarel</title>
-    <script src="javascript/scroll-anime.js"></script>
 </head>
 
 <body>
-    <nav class="navbar navbar-light bg-light nav-arazel-bg">
-        <div class="container">
+    <!-- navigation section -->
+    <nav>
+        <div>
             <a class="navbar-brand" href="#">
                 <img src="assets/images/logo.png" alt="">
             </a>
-            <button type="button" class="btn btn-info tertiary-button float-right">Join Azarel</button>
         </div>
-        <div class="container top-body">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h1 class="text-color-secondary hero-info-text-h1">Welcome to Azarel</h1>
-                    <p>Times have changed but banking hasn’t.<br>The way we manage our money needs an update.
-                        <br>It’s time to make the world of finance simpler, smarter and<br>fit for modern life.
-                    </p>
 
-                    <div class="group-appstore-buttons">
-                        <button class="button no-border">
-                            <img src="assets/images/AppStore.png" alt="">
-                        </button>
-                        <button class="button no-border">
-                            <img src="assets/images/Google Store.png" alt="">
-                        </button>
-                    </div>
-
-                    <div class="mt-5 pt-3">
-                        <p>Are you a hairstylist? Join our ever growing network</p>
-                        <div class="d-flex">
-                            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username">
-                            <button class="btn66" type="button">Join Azarel</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div>
+            <button type="button" class="tertiary-button">Join Azarel</button>
         </div>
     </nav>
-    <div class="container-fluid">
-        <div class="row reveal">
-            <div class="col-sm-8 offset-md-2">
-                <h1 class="text-color-secondary text-center hero-info-text-h1">Easy access to quality hair care</h1>
-                <h4 class="text-color-brown text-center hero-info-text-h4">Simple. Fast. Secure. Mobile.</h4>
-                <img src="assets/images/Artboard 1 1.png" alt="">
+    <!-- navigation section -->
+
+    <!-- section one -->
+    <div class="header-section">
+        <div class="header-text">
+            <h2 class="header-title text-color-secondary">
+                Welcome to Azarel
+            </h2>
+
+            <p class="header-subtitle">
+                Times have changed but banking hasn’t. The way we manage our money needs an update. It’s time to make
+                the world of finance simpler, smarter and fit for modern life.
+            </p>
+
+            <div class="mobile-btns">
+                <button class="transparent no-border">
+                    <img src="assets/images/AppStore.png" alt="">
+                </button>
+                <button class="transparent no-border">
+                    <img src="assets/images/Google Store.png" alt="">
+                </button>
             </div>
+
+            <div class="header-form">
+                <p>Are you a hairstylist? Join our growing network</p>
+
+                <form action="">
+                    <input id="header-input-form" class="az-input-borderless" type="text" name="" id=""
+                        placeholder="Enter your email address">
+                    <button class="az-btn-fill" type="submit">Join Azarel</button>
+                </form>
+            </div>
+
         </div>
-        <div class="row reveal">
-            <div class="col-sm-12 hero-mid-section">
-                <h1 class="text-color-secondary text-center hero-info-text-h1">What Azarel offers</h1>
-                <h4 class="text-color-brown text-center hero-info-text-h4">Features makes to make your life easier</h4>
-                <div class="grouped-button-center">
-                    <button class="btn btn-outline-primary azarel-outline-button-secondary" for="btncheck1">For
-                        Customers</button> <br> 
-                    <button class="btn btn-outline-primary azarel-outline-button-secondary" for="btncheck2">For
-                        Hairstylists</button>
-                </div>
-
-
-            </div>
-        </div>
-        <div class="container">
-            <div class="row reveal">
-                <div class="col-sm-6">
-                        <h1 class="je"><b>Join <br>
-                            Easily</b></h1>
-
-                            <p class="either">Join Azarel either a customer in <br>
-                                 need of hair care or a hairstylist, <br>
-                                   all in one place.</p> <br> <br> <br>
-
-                                   <ul class="li"><li>Get an account within minutes</li>
-                                <li>Receive your Hay card within 5 workings days</li>
-                            <li> Hay gets better with friends, refer your mates</li></ul>
-
-                            <div class="group-appstore-buttons">
-                                <button class="button no-border">
-                                    <img src="assets/images/AppStore.png" alt="">
-                                </button>
-                                <button class="button no-border">
-                                    <img src="assets/images/Google Store.png" alt="">
-                                </button>
-                            </div>
-                </div>
-                <div class="col-sm-6">
-                    <img class="ng" src="assets/images/SIGN UP 1.png" alt="">
-                </div>
-            </div>
-            <div class="row reveal ">
-                <div class="col-sm-6">
-                    <img src="assets/images/Search 1.png" alt="">
-                </div>
-                <div class="col-sm-6">
-                    <h1 class="fi"><b>Find <br>
-                        Stylists</b></h1>
-
-                        <p class="se">Search for stylists based on <br>
-                             your hairstyling preferences.</p>
-                              <br> <br> <br>
-
-                             <ul class="a"><li>A wide range of stylists to choose from</li>
-                            <li>Searcg based on location or style category</li>
-                        <li>Favourite stylist to contact later</li></ul>
-
-                        <div class="group-appstore-buttons-1">
-                            <button class="button no-border">
-                                <img src="assets/images/AppStore.png" alt="">
-                            </button>
-                            <button class="button no-border">
-                                <img src="assets/images/Google Store.png" alt="">
-                            </button>
-                        </div>
-
-                </div>
-            </div>
-            <div class="row reveal">
-                <div class="col-sm-6">
-                    <h1 class="ba"><b>Book <br>
-                        Appointments</b></h1> <br>
-
-                        <p class="get">Get start on your hair journey by <br>
-                             booking appointments with <br>
-                              new or your favourite stylist</p>
-                              <br> <br> <br>
-
-                              <ul class="ch"><li>Choose appropriate time and date</li>
-                            <li>Make arrangements early on style and products</li>
-                        <li>Pay early so you don’t have to pay after your session</li></ul>
-
-                        <div class="group-appstore-buttons">
-                            <button class="button no-border">
-                                <img src="assets/images/AppStore.png" alt="">
-                            </button>
-                            <button class="button no-border">
-                                <img src="assets/images/Google Store.png" alt="">
-                            </button>
-                        </div>
-                </div>
-                <div class="col-sm-6">
-                    <img class="ng" src="assets/images/Appointment 1.png" alt="">
-                </div>
-            </div>
-            <div class="row reveal">
-                <div class="col-sm-6">
-                    <img src="assets/images/Rate 1.png" alt="">
-                </div>
-                <div class="col-sm-6">
-                    <h1 class="re"><b>Review <br>
-                        Service</b></h1>
-
-                        <p class="had">Had a wonderful experience? <br>
-                             Share with others and improve <br>
-                              our network of stylists.</p>
-                            <br> <br> <br>
-
-                              <ul class="eas"><li>Easily give review after a session</li>
-                            <li>View reviews of other enthusiasts </li>
-                        <li>Improve our network of stylists</li></ul>
-
-                        <div class="group-appstore-buttons-1">
-                            <button class="button no-border">
-                                <img src="assets/images/AppStore.png" alt="">
-                            </button>
-                            <button class="button no-border">
-                                <img src="assets/images/Google Store.png" alt="">
-                            </button>
-                        </div>
-
-                </div>
-            </div>
-        </div>
-        <section class="row hero-buttom-section reveal">
-            <div class="container col-sm-9 offset-md-2">
-                <div class="row">
-                    <div class="col-sm-6">
-                        
-                <h1 class="ly"><b>Join <br>
-                    Easily</b></h1>
-
-                <p class="aza">Join Azarel as a hairstylist easily <br>
-                    and set up your personal profile <br>
-                        or shop profile</p> <br> 
-
-                    <ul class="an"><li>Get an account within minutes</li>
-                    <li>Set up your profile as personal or shop</li>
-                    <li>Get your first customer</li></ul>
-
-                <div class="group-appstore-buttons">
-                    <button class="button no-border">
-                        <img src="assets/images/AppStore.png" alt="">
-                    </button>
-                    <button class="button no-border">
-                        <img src="assets/images/Google Store.png" alt="">
-                    </button></div>
-                    <div class="col-sm-0">
-                        <img src="assets/images/SIGN UP 2 1.png" alt="">
-                    </div>
-                </div>
-                <div class="row reveal">
-                    <div class="col-sm-6">
-                        <img class="x" src="assets/images/Profile 1.png" alt="">
-                    </div>
-                    <div class="col-sm-6">
-                        <h1 class="mae"><b>Manage <br>
-                            Profile</b></h1>
-
-                            <p class="up">Set up your personal or <br>
-                                 business profile according to <br>
-                                  how you work</p> <br> <br> <br>
-
-                                  <ul class="pee"><li>Choose between a person profile or business/shop profile</li>
-                                <li>Set your availability in a day or week</li>
-                            <li>Set up hairstyling services you offer</li></ul>
-
-                            <div class="group-appstore-buttons">
-                                <button class="button no-border">
-                                    <img src="assets/images/AppStore.png" alt="">
-                                </button>
-                                <button class="button no-border">
-                                    <img src="assets/images/Google Store.png" alt="">
-                                </button></div>
-                    </div>
-                </div>
-                <div class="row reveal">
-                    <div class="col-sm-6">
-                        <h1 class="ment"><b>Manage <br>
-                            Appointments</b></h1> <br>
-                            <p class="req">Receive appointment request <br>
-                                 from customers and manage <br>
-                                  your availability</p>
-                                  <br> <br> 
-
-                                  <ul class="fro"><li>Receive appointment request from customers</li>
-                                <li>Create appointments with your favourite customers</li>
-                            <li>Reschedule or cancel appointments</li></ul>
-
-                            <div class="group-appstore-buttons">
-                                <button class="button no-border">
-                                    <img src="assets/images/AppStore.png" alt="">
-                                </button>
-                                <button class="button no-border">
-                                    <img src="assets/images/Google Store.png" alt="">
-                                </button></div>
-                    </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <img  class="col2" src="assets/images/Appointment 2.png" alt="">
-                    </div>
-                </div>
-                <div class="row reveal">
-                    <div class="col-sm-6">
-                        <img src="assets/images/Earnings 1.png" alt="">
-                    </div>
-                    <div class="col-sm-6">
-                        <h1 class="ings"><b>Manage <br>
-                            Earnings</b></h1>
-                            <br>
-                            <p class="hom">View how much you earn from <br>
-                                 your Azarel on a weekly and <br>
-                                  monthly basis</p>
-                                  <br> <br> <br>
-                                  <ul class="aje"><li>View earning periodically</li>
-                                <li>See analyses of your earning </li>
-                            <li>View how many sessions you have done periodically</li></ul>
-
-                            <div class="group-appstore-buttons">
-                                <button class="button no-border">
-                                    <img src="assets/images/AppStore.png" alt="">
-                                </button>
-                                <button class="button no-border">
-                                    <img src="assets/images/Google Store.png" alt="">
-                                </button></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class=" expan">
-            <h1 class="todaytoady"><b>Join Azarel today toady.</b></h1>
-            <input type="text" class="form-control2" placeholder=>
-        <div class="tr">
-            <button class="btn btn-outline-secondary02 secondary-button" type="button">Join Azarel</button></div>
-        </section>
 
     </div>
-    <footer class="footer">
-       
-       <div class="footer-logo">
-        <img class="fotty" src="assets/images/logo.png" alt="Azarellogo">
-       </div>
-       <div class="major-list">
-        <div class="info">
-            <p class="footer-heading">Info</p>
-            <p class="subc">FAQ</p>
-            <p class="subc">T&Cs</p>
-            <p class="subc">Privacy</p>
-    
-        </div>
-        <div class="social">
-            <p class="footer-heading">Social</p>
-            <p class="subc">Instagram</p>
-            <p class="subc">Facebook</p>
-            <p class="subc">Twitter</p>
-            <p class="subc">LinkedIn</p>
-        </div>
-        <div class="support">
-            <p class="footer-heading">Support</p>
-            <p class="subc-1">Request Help</p> 
+    <!-- section one -->
 
-        </div> 
-       </div>
+    <!-- section two -->
+    <div id="section-two" class="azarel-light">
+        <div class="section-text">
+            <h2 class="text-color-secondary section-title">
+                Easy access to quality hair care
+            </h2>
+            <p class="section-subtitle">
+                Simple. Fast. Secure. Mobile.
+            </p>
+        </div>
+
+        <div class="section-img">
+            <img src="assets/images/Artboard 1 1.png" alt="">
+        </div>
+
+    </div>
+    <!-- section two -->
+
+    <!-- section three -->
+    <div id="section-three" class="azarel-beige">
+        <div class="section-text">
+            <h2 class="text-color-secondary section-title">
+                What Azarel offers
+            </h2>
+            <p class="section-subtitle">
+                Features makes to make your life easier
+            </p>
+        </div>
+
+        <div class="cst-btns">
+            <button class="az-btn-trans">
+                For Customers
+            </button>
+
+            <button class="az-btn-trans">
+                For Hairstylists
+            </button>
+        </div>
+
+    </div>
+    <!-- section three -->
+
+    <!-- section four -->
+    <div id="section-four" class="azarel-light">
+        <div class="section-text">
+            <h2 class="text-color-secondary section-title">
+                Join <br>
+                Easily
+            </h2>
+            <p class="section-subtitle">
+                Join Azarel either a customer in need of hair care or a hairstylist, all in one place.
+            </p>
+
+            <ul class="section-info">
+                <li>Get an account within minutes</li>
+                <li>Receive your Hay card within 5 workings days</li>
+                <li> Hay gets better with friends, refer your mates</li>
+            </ul>
+
+            <div class="section-btns">
+                <a href="" class="">
+                    <img src="assets/images/AppStore.png" alt="">
+                </a>
+                <a href="" class="">
+                    <img src="assets/images/Google Store.png" alt="">
+                </a>
+            </div>
+        </div>
+
+        <div class="section-img">
+            <img src="assets/images/SIGN UP 1.png" alt="">
+        </div>
+    </div>
+    <!-- section four -->
+
+    <!-- section five -->
+    <div id="section-five" class="azarel-light">
+        <div class="section-img">
+            <img src="assets/images/Search 1.png" alt="">
+        </div>
+
+        <div class="section-text">
+            <h2 class="text-color-secondary section-title">
+                Find <br>
+                Stylists
+            </h2>
+            <p class="section-subtitle">
+                Search for stylists based on your hairstyling preferences.
+            </p>
+
+            <ul class="section-info">
+                <li>A wide range of stylists to choose from</li>
+                <li>Search based on location or style category</li>
+                <li>Favourite stylist to contact later</li>
+            </ul>
+
+            <div class="section-btns">
+                <a href="" class="">
+                    <img src="assets/images/AppStore.png" alt="">
+                </a>
+                <a href="" class="">
+                    <img src="assets/images/Google Store.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- section five -->
+
+    <!-- section six -->
+    <div id="section-six" class="azarel-light">
+        <div class="section-text">
+            <h2 class="text-color-secondary section-title">
+                Book <br>
+                Appointments
+            </h2>
+            <p class="section-subtitle">
+                Get start on your hair journey by booking appointments with new or your favourite stylist
+            </p>
+
+            <ul class="section-info">
+                <li>Choose appropriate time and date</li>
+                <li>Make arrangements early on style and products</li>
+                <li>Pay early so you don’t have to pay after your session</li>
+            </ul>
+
+            <div class="section-btns">
+                <a href="" class="">
+                    <img src="assets/images/AppStore.png" alt="">
+                </a>
+                <a href="" class="">
+                    <img src="assets/images/Google Store.png" alt="">
+                </a>
+            </div>
+        </div>
+
+        <div class="section-img">
+            <img src="assets/images/Appointment 1.png" alt="">
+        </div>
+    </div>
+    <!-- section six -->
+
+    <!-- section seven -->
+    <div id="section-seven" class="azarel-light">
+        <div class="section-img">
+            <img src="assets/images/Search 1.png" alt="">
+        </div>
+
+        <div class="section-text">
+            <h2 class="text-color-secondary section-title">
+                Review <br>
+                Service
+            </h2>
+            <p class="section-subtitle">
+                Had a wonderful experience? Share with others and improve our network of stylists.
+            </p>
+
+            <ul class="section-info">
+                <li>Easily give review after a session</li>
+                <li>View reviews of other enthusiasts </li>
+                <li>Improve our network of stylists</li>
+            </ul>
+
+            <div class="section-btns">
+                <a href="" class="">
+                    <img src="assets/images/AppStore.png" alt="">
+                </a>
+                <a href="" class="">
+                    <img src="assets/images/Google Store.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- section seven -->
+
+    <!-- section eight -->
+    <div id="section-six" class="azarel-brown">
+        <div class="section-text">
+            <h2 class="text-color-brown section-title">
+                Join <br>
+                Easily
+            </h2>
+            <p class="section-subtitle">
+                Join Azarel as a hairstylist easily and set up your personal profile or shop profile
+            </p>
+
+            <ul class="section-info">
+                <li>Get an account within minutes</li>
+                <li>Set up your profile as personal or shop</li>
+                <li>Get your first customer</li>
+            </ul>
+
+            <div class="section-btns">
+                <a href="" class="">
+                    <img src="assets/images/AppStore.png" alt="">
+                </a>
+                <a href="" class="">
+                    <img src="assets/images/Google Store.png" alt="">
+                </a>
+            </div>
+        </div>
+
+        <div class="section-img">
+            <img src="assets/images/SIGN UP 2 1.png" alt="">
+        </div>
+    </div>
+    <!-- section eight -->
+
+    <!-- section nine -->
+    <div id="section-nine" class="azarel-brown">
+        <div class="section-img">
+            <img src="assets/images/Profile 1.png" alt="">
+        </div>
+
+        <div class="section-text">
+            <h2 class="text-color-brown section-title">
+                Manage <br>
+                Profile
+            </h2>
+            <p class="section-subtitle">
+                Set up your personal or business profile according to how you work
+            </p>
+
+            <ul class="section-info">
+                <li>Choose between a person profile or business/shop profile</li>
+                <li>Set your availability in a day or week</li>
+                <li>Set up hairstyling services you offer</li>
+            </ul>
+
+            <div class="section-btns">
+                <a href="" class="">
+                    <img src="assets/images/AppStore.png" alt="">
+                </a>
+                <a href="" class="">
+                    <img src="assets/images/Google Store.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- section nine -->
+
+    <!-- section ten -->
+    <div id="section-ten" class="azarel-brown">
+        <div class="section-text">
+            <h2 class="text-color-brown section-title">
+                Manage <br>
+                Appointments
+            </h2>
+            <p class="section-subtitle">
+                Receive appointment request from customers and manage your availability
+            </p>
+
+            <ul class="section-info">
+                <li>Receive appointment request from customers</li>
+                <li>Create appointments with your favourite customers</li>
+                <li>Reschedule or cancel appointments</li>
+            </ul>
+
+            <div class="section-btns">
+                <a href="" class="">
+                    <img src="assets/images/AppStore.png" alt="">
+                </a>
+                <a href="" class="">
+                    <img src="assets/images/Google Store.png" alt="">
+                </a>
+            </div>
+        </div>
+
+        <div class="section-img">
+            <img src="assets/images/Appointment 2.png" alt="">
+        </div>
+    </div>
+    <!-- section ten -->
+
+    <!-- section eleven -->
+    <div id="section-eleven" class="azarel-brown">
+        <div class="section-img">
+            <img src="assets/images/Profile 1.png" alt="">
+        </div>
+
+        <div class="section-text">
+            <h2 class="text-color-brown section-title">
+                Manage <br>
+                Profile
+            </h2>
+            <p class="section-subtitle">
+                View how much you earn from your Azarel on a weekly and monthly basis
+            </p>
+
+            <ul class="section-info">
+                <li>View earning periodically</li>
+                <li>See analyses of your earning </li>
+                <li>View how many sessions you have done periodically</li>
+            </ul>
+
+            <div class="section-btns">
+                <a href="" class="">
+                    <img src="assets/images/AppStore.png" alt="">
+                </a>
+                <a href="" class="">
+                    <img src="assets/images/Google Store.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- section eleven -->
+
+    <!-- section twelve -->
+    <div id="section-twelve" class=" azarel-light">
+        <div class="section-text">
+            <h2 class="text-color-secondary section-title">
+                Join Azarel today
+            </h2>
+        </div>
+
+        <form action="">
+            <input class="az-input" type="text" name="" id="header-input-form" placeholder="Enter your email address">
+            <button class="az-btn-fill" type="submit">Join Azarel</button>
+        </form>
+    </div>
+    <!-- section twelve -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <!--    logo section    -->
+        <div class="footer-item">
+            <img src="assets/images/logo.png" alt="">
+        </div>
+        <!--    logo section    -->
+
+        <!--    features section    -->
+        <div class="footer-item">
+            <ul>
+                <p class="footer-item-title">Info</p>
+                <li class="footer-item-nav"><a href="#">F.A.Q</a></li>
+                <li class="footer-item-nav"><a href="#">T & C's</a></li>
+                <li class="footer-item-nav"><a href="#">Privacy</a></li>
+            </ul>
+        </div>
+        <!--    features section    -->
+
+        <!--    resources section    -->
+        <div class="footer-item">
+            <ul>
+                <p class="footer-item-title">Social</p>
+                <li class="footer-item-nav"><a href="#">Instagram</a></li>
+                <li class="footer-item-nav"><a href="#">Facebook</a></li>
+                <li class="footer-item-nav"><a href="#">Twitter</a></li>
+                <li class="footer-item-nav"><a href="#">LinkedIn</a></li>
+            </ul>
+        </div>
+        <!--    resources section    -->
+
+        <!--    company section    -->
+        <div class="footer-item">
+            <ul>
+                <p class="footer-item-title">Support</p>
+                <li class="footer-item-nav"><a href="#">Request Help</a></li>
+            </ul>
+        </div>
+        <!--    company section    -->
+        <p class="footer-subtitle">
+            <a href="">Privacy policy</a>
+            and <a href="">Terms of Service</a> apply.
+        </p>
     </footer>
-    <p class="pol">Privacy Policy  and Terms of Service apply.</p>
+    <!-- footer -->
 </body>
 
 </html>
