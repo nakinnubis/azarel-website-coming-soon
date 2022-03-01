@@ -1,5 +1,8 @@
 html{
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+
 }
 
 
@@ -7,13 +10,9 @@ body {
     background: #FCFAF4;
     overflow-y: scroll;
     font-family: 'Cabin', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 19px;
-    line-height: 23px;
-    height: 100%;
-    width: 100%;
-    bottom: 0%;
+    
+    
+
 }
 
 .reveal{
@@ -28,11 +27,14 @@ body {
 }
 
 
-.nav-arazel-bg {
+.top-hero {
     background-image: url('../images/Frame.png');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     padding: 4rem ;
+    /* display: block; */
+
 }
 
 
@@ -54,8 +56,8 @@ body {
     background-color: #F04E37;
 }
 
-.top-body{
-    padding: 4rem 4rem 0;
+.top-body, .access, .hero-mid-section, .join-section{
+    padding: 4rem;
 }
 
 .top-body p {
@@ -74,7 +76,7 @@ body {
     font-family: 'Cabin', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 58px;
+    font-size: 4rem;
     /* line-height: 69px; */
 }
 
@@ -82,7 +84,7 @@ body {
     font-family: 'Cabin', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 23px;
+    font-size: 1.5rem;
     line-height: 35px;
 }
 
@@ -94,12 +96,12 @@ body {
 .hero-mid-section {
     background: #FCF4E9;
     border-radius: 0px;
-    height: 626px;
+    /* height: 35rem; */
+    
 }
 
 .hero-buttom-section {
     background: #E3C6B7;
-    border-radius: 0px;
 }
 
 
@@ -211,8 +213,7 @@ color: #FFA093;
     background-color: #554B48 !important;
     border-color: #554B48 !important;
     color: #FCFAF4;
-    height: 50px;
-    width: 150px;
+    padding: 1rem 2rem;
 }
 
 .no-border {
@@ -227,10 +228,8 @@ color: #FFA093;
 }
 
 .grouped-button-center {
-    left: 35%;
-    right: 35%;
-    position: absolute;
     display: flex;
+    justify-content: center;
 }
 .btncheck1{
     margin: 20px;
@@ -260,10 +259,12 @@ color: #FFA093;
 button:hover{
    filter: brightness(85%);
 }
-
-button:active{
- 
-  transform: translateY(2px);
+button:focus, .btn:focus{
+    outline: 0px;
+}
+button:active, .btn:active{
+    outline: 0px;
+    transform: translateY(2px);
 
 }
 .col-sm-6{
@@ -318,38 +319,19 @@ color: #554B48;
 }
 
 .fi{
-    height: 116px;
-width: 358px;
-left: 926px;
-top: 1096px;
-border-radius: nullpx;
-
 font-family: 'Cabin', sans-serif;
 font-size: 56px;
-font-style: normal;
 font-weight: 500;
 line-height: 58px;
 letter-spacing: 0em;
 text-align: right;
- margin-left: 30%;
 color: #F04E37;
 }
+
 .se{
-    height: 51px;
-width: 238px;
-left: 1042px;
-top: 1233px;
-border-radius: nullpx;
-
-font-family: SF Pro Display;
 font-size: 18px;
-font-style: normal;
-font-weight: 400;
 line-height: 25px;
-letter-spacing: 0em;
 text-align: right;
-
-margin-left: 52%;
 color: #554B48;
 }
 .group-appstore-buttons-1{
@@ -740,4 +722,54 @@ border: 2px solid #F79C7C;
 .btn-outline-secondary02{
     background: #FF4300;
     color: #FFFFFF;
+}
+
+.phone-img{
+    max-width: 80%;
+}
+
+.flex-apart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 2rem 4rem; */
+}
+
+@media only screen and (max-width: 500px) {
+    .mt-5{
+        margin-top: 0rem !important;
+    }
+    .btn66{
+        width: fit-content;
+    }
+    .hero-info-text-h1 {
+        font-size: 2rem;
+    }
+    .top-hero, .top-body, .access, .hero-mid-section, .join-section{
+        padding: 2rem;
+    }
+
+    .logo-img{
+        width: 8rem;
+    }
+    .tertiary-button{
+        padding: 0.5rem;
+    }
+    
+    .azarel-outline-button-secondary{
+        width: 9rem;
+    }
+    .col-reverse{
+        flex-direction: column-reverse;
+    }
+    .col-dir{
+        flex-direction: column;
+    }
+    .flex-img img{
+        height: 25rem;
+    }
+    .je, .fi{
+        font-size: 46px;
+    }
+
 }
