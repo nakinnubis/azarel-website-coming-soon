@@ -178,12 +178,20 @@ footer .icons li {
 }
 
 .tertiary-button {
+    border: 2px solid #554B48;
     background: #554B48;
     border-radius: 10px;
-    background-color: #554B48;
-    border-color: #554B48;
     color: #FCFAF4;
     padding: 9px 20px;
+}
+
+.tertiary-button:hover {
+    border: 2px solid #554B48;
+    background: transparent;
+    border-radius: 10px;
+    color: #554B48;
+    padding: 9px 20px;
+    transition: all ease-in-out 0.3s;
 }
 
 .no-border {
@@ -205,7 +213,7 @@ footer .icons li {
     color: #FF4300;
     padding: 12px 30px;
     margin-bottom: 10px;
-    transition: all ease-in 0.3s;
+    transition: all ease-in-out 0.3s;
 }
 
 .az-btn-trans {
@@ -223,7 +231,7 @@ footer .icons li {
     background: #FF4300;
     color: white;
     padding: 12px 30px;
-    transition: all ease-in 0.3s;
+    transition: all ease-in-out 0.3s;
 }
 
 .az-input {
