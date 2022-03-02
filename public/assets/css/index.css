@@ -191,11 +191,21 @@ footer .icons li {
 }
 
 .az-btn-fill {
-    border: none;
+    border: 2px solid transparent;
     border-radius: 12px;
     background: #FF4300;
     color: white;
     padding: 12px 30px;
+}
+
+.az-btn-fill:hover {
+    border: 2px solid #FF4300;
+    border-radius: 12px;
+    background: none;
+    color: #FF4300;
+    padding: 12px 30px;
+    margin-bottom: 10px;
+    transition: all ease-in 0.3s;
 }
 
 .az-btn-trans {
@@ -205,6 +215,15 @@ footer .icons li {
     color: #FF4300;
     padding: 12px 30px;
     margin-bottom: 10px;
+}
+
+.az-btn-trans:hover {
+    border: 2px solid transparent;
+    border-radius: 12px;
+    background: #FF4300;
+    color: white;
+    padding: 12px 30px;
+    transition: all ease-in 0.3s;
 }
 
 .az-input {
@@ -237,30 +256,6 @@ footer .icons li {
 .secondary-button {
     background: #F15A24;
     border-radius: 10px;
-}
-
-.grouped-button-center {
-    left: 35%;
-    right: 35%;
-    position: absolute
-}
-
-.azarel-outline-button-secondary {
-    border: 2px solid #FF4300;
-    border-radius: 12px;
-    height: 58px;
-    width: 250px;
-    color: #F15A24;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 16px;
-}
-
-.azarel-outline-button-secondary:hover {
-    background: #F15A24;
-    color: #FCFAF4;
-    border: #FF4300;
 }
 
 /* DESKTOP STYLING */
@@ -310,10 +305,101 @@ footer .icons li {
         text-align: center;
     }
 
-    .section-img img {
+    #section-two img {
         width: 40%;
-
     }
+
+    #cst-btn {
+        width: 15%;
+    }
+
+    #section-four,
+    #section-five,
+    #section-six,
+    #section-seven,
+    #section-eight,
+    #section-nine,
+    #section-ten,
+    #section-eleven {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .section-title {
+        font-size: 56px;
+    }
+
+    /* even sections */
+    #section-four .section-title,
+    #section-six .section-title,
+    #section-eight .section-title,
+    #section-ten .section-title {
+        text-align: left;
+    }
+
+    #section-four .section-btns,
+    #section-six .section-btns,
+    #section-ten .section-btns,
+    #section-eight .section-btns {
+        text-align: left;
+    }
+
+    /* even sections */
+
+    /* odd sections */
+    #section-five .section-title,
+    #section-seven .section-title,
+    #section-nine .section-title,
+    #section-eleven .section-title {
+        text-align: right;
+    }
+
+    #section-five .section-btns,
+    #section-seven .section-btns,
+    #section-nine .section-btns,
+    #section-eleven .section-btns {
+        text-align: right;
+    }
+
+    /* odd sections */
+
+
+    /* section twelve */
+    #section-twelve form {
+        text-align: center;
+    }
+
+    #section-twelve form input {
+        width: 30%;
+        margin-right: 20px;
+    }
+
+    /* section twelve */
+
+
+    /* footer */
+    .footer-one {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .footer-item {
+        margin: 0 auto;
+    }
+
+    footer a:hover {
+        color: #FF4300;
+        transition: all ease-in-out 0.3s;
+    }
+
+    footer .icons li:hover {
+        cursor: pointer;
+        color: #FF4300;
+        transition: all ease-in-out 0.3s;
+    }
+
+    /* footer */
 }
 
 /* DESKTOP STYLING */
