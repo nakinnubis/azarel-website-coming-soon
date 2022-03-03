@@ -13,14 +13,6 @@ body {
 
 /*Navigation styling*/
 
-/* .nav-arazel-bg {
-    background-image: url('../images/Frame.png');
-    background-repeat: no-repeat;
-    background-size: 100% 95%;
-    height: 850px;
-    padding-top: 0px;
-} */
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -212,7 +204,6 @@ footer .icons li {
     background: none;
     color: #FF4300;
     padding: 12px 30px;
-    margin-bottom: 10px;
     transition: all ease-in-out 0.3s;
 }
 
