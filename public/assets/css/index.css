@@ -1,5 +1,7 @@
 /*Body Styling*/
-
+html{
+    scroll-behavior: smooth;
+}
 body {
     background: #FCFAF4;
     overflow-y: scroll;
@@ -9,7 +11,16 @@ body {
     margin: 0px;
     padding: 0px;
 }
-
+.reveal{
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
 
 /*Navigation styling*/
 
@@ -49,7 +60,7 @@ nav {
 
 #header-input-form {
     width: 100%;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 }
 
 .azarel-brown,
@@ -73,12 +84,19 @@ nav {
 
 .section-btns {
     text-align: center;
+    display: flex;
 }
 
 .section-btns img {
     margin-bottom: 10px;
 }
-
+.go-to-store-img{
+    max-width: 178px;
+    margin: 15px;
+}
+.go-to-store-img > img{
+    max-width: 100%;
+}
 .section-text {
     padding-bottom: 20px;
 }
@@ -195,7 +213,8 @@ footer .icons li {
     border-radius: 12px;
     background: #FF4300;
     color: white;
-    padding: 12px 30px;
+    width: 25%;
+    /* padding: 12px 30px; */
 }
 
 .az-btn-fill:hover {
@@ -256,9 +275,32 @@ footer .icons li {
     background: #F15A24;
     border-radius: 10px;
 }
-
+form#header-form,form#section-form{
+    display: inline-flex;
+    min-width: 500px;
+}
+form#section-form{
+    left: 30%;
+    right: 35%;
+    position: absolute;
+}
+#section-input-form{
+    width: 65%;
+}
+#header-input-form{
+    max-width: 65%;
+    height: 61px;
+}
 /* DESKTOP STYLING */
-
+@media only screen and (max-width: 500) {
+    form#header-form,#section-form{
+        display: inline-flex;
+    }
+    #header-input-form{
+        max-width: 65%;
+    }
+ 
+}
 /*MEDIA QUERIES STYLING STARTS HERE*/
 @media screen and (min-width: 500px) {
     nav {
@@ -292,11 +334,15 @@ footer .icons li {
 
     .header-form {
         padding-top: 70px;
+        max-width: 550px;
+        max-height: 70px;
+        display: inline-flexbox;
     }
 
     #header-input-form {
-        width: 70%;
-        margin-bottom: 15px;
+        width: 68%;
+        /* margin-bottom: 15px; */
+        margin-right: 5px;
     }
 
 
@@ -369,8 +415,9 @@ footer .icons li {
     }
 
     #section-twelve form input {
-        width: 30%;
+        width: 50%;
         margin-right: 20px;
+        height: 61px;
     }
 
     /* section twelve */
