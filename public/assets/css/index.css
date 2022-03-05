@@ -56,7 +56,7 @@ body {
     background-color: #F04E37;
 }
 
-.top-body, .access, .hero-mid-section, .join-section{
+.top-body, .access, .hero-mid-section, .join-section, .expan, .footer{
     padding: 4rem;
 }
 
@@ -129,12 +129,17 @@ body {
 
 .footer {
     background: #554B48;
-    height: 400px;
-    display: flex; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* height: 400px; */
+    /* display: flex; 
     padding: 2rem;
-    justify-content: space-between;
+    justify-content: space-between; */
    
     
+}
+.footer-content{
+    display: flex;
+    gap: 4rem;
 }
 .social{
     display: flex;
@@ -142,67 +147,33 @@ body {
     
 }
 .footer-heading{
-        height: 15px;
-    width: 37px;
-    left: 418px;
-    top: 10448px;
-
-
     font-size: 21px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0em;
-    text-align: left;
-
-
-
+    font-weight: 500
 }
 .major-list{
     display: flex;
     justify-content: space-between;
-    width: 85vw;
+    width: 50vw;
     color: #FCFAF4;
-    margin-right: 12rem;
+    /* margin-right: 12rem; */
     font-size: 12px;
 }
-.subc{
-    
-font-family: Roboto;
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-letter-spacing: 0em;
-text-align: left;
-color: #FFA093;
-}
+.footer p a {    
+    font-size: 15px;
+    color: #FFA093;
+    text-decoration: none;
+    }
+
 .pol{
-    font-family: Roboto;
-font-size: 11px;
-font-style: normal;
-font-weight: 400;
-line-height: 14px;
-letter-spacing: 0em;
-text-align: right;
-margin-right: 10%;
-margin-top: -3%;
-color: #F79C7C;
+    font-size: 11px;
+    margin-top: 1rem;
+    text-align: right;
+    color: #F79C7C;
 
 }
-.subc-1{
-    font-family: Roboto;
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: left;
-color: #FFA093;
-}
+
 .footer-logo{
-   
-    padding-right: 4rem;
-    padding-top: 2rem;
 }
 
 /*Button Stylish and Customization of Bootstrap colors*/
@@ -651,29 +622,23 @@ color: #554B48;
 }
 .x{margin-left: -10.9%;}
 
-.expan{height:400px;
-width: 400px;
+.expan{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 
 }
 .todaytoady{
-    height: 64px;
-width: 634px;
-left: 403px;
-top: 10045px;
-border-radius: nullpx;
-
 font-family: 'Cabin', sans-serif;
 font-size: 57px;
 font-style: normal;
 font-weight: 400;
-line-height: 63px;
-letter-spacing: 0em;
 text-align: center;
-
-margin-top: 30%;
-margin-left: 78%;
+margin: 4rem auto;
 color: #F04E37;
 }
+
 .form-control{
     /* border: 5em; */
     width: 60%;
@@ -707,17 +672,12 @@ color: #F04E37;
 
 }
 .form-control2{
-    border: 5em;
-    width: 60%;
-margin-left: 90%;
-border-radius: 12px;
-height: 40px;
-width: 376px;
-left: 419px;
-top: 10155px;
-border-radius: 12px;
-background: #FFFFFF;
-border: 2px solid #F79C7C;
+    width: 30vw;
+    border-radius: 12px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #F79C7C;
+    padding: 0.2rem 0.5rem;
 }
 .btn-outline-secondary02{
     background: #FF4300;
@@ -745,11 +705,11 @@ border: 2px solid #F79C7C;
     .hero-info-text-h1 {
         font-size: 2rem;
     }
-    .top-hero, .top-body, .access, .hero-mid-section, .join-section{
+    .top-hero, .top-body, .access, .hero-mid-section, .join-section, .expan, .footer{
         padding: 2rem;
     }
 
-    .logo-img{
+    .logo-img, .footer-logo img{
         width: 8rem;
     }
     .tertiary-button{
@@ -768,8 +728,22 @@ border: 2px solid #F79C7C;
     .flex-img img{
         height: 25rem;
     }
-    .je, .fi{
+    .je, .fi, .todaytoady{
         font-size: 46px;
+    }
+    .todaytoady{
+        margin: 1rem auto;
+    }
+    .form-control2{
+        width: 50vw;
+    }
+
+    .footer-content{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .major-list{
+        width: 80vw;
     }
 
 }
